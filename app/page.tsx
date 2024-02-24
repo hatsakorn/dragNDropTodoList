@@ -8,7 +8,7 @@ export default function Home() {
         style={{
           width: "200px",
           height: "50px",
-          border: "1px solid white",
+          border: "1px solid black",
           borderRadius: "10px",
         }}
         pathName="/todolist"
