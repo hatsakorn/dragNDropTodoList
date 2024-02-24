@@ -4,7 +4,7 @@ import { ICard } from "@/app/Interfaces/components/Card";
 export default function Card(props: ICard) {
   const { children } = props;
   return (
-    <div className="w-32 p-2">
+    <div className="w-64 rounded-md p-2">
       <div>
         <div>{children}</div>
         {/* when hover
