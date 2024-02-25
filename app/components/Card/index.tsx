@@ -1,7 +1,7 @@
 // import Image from "next/image";
-import { ICard } from "@/app/Interfaces/components/Card";
+import { ICardProps } from "@/app/Interfaces/components/Card";
 
-export default function Card(props: ICard) {
+export default function Card(props: ICardProps) {
   const { children } = props;
   return (
     <div className="w-64 rounded-md p-2">

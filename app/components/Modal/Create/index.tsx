@@ -18,6 +18,7 @@ export default function Create(props: ICreate) {
 
   const handleCreate = () => {
     onCreate(titleName);
+    setIsClick(false);
   };
 
   return (

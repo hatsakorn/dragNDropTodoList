@@ -1,5 +1,6 @@
 import Card from "@/app/components/Card";
 import Create from "@/app/components/Modal/Create";
+import CardContainer from "../Interfaces/components/CardContainer";
 
 export default function Todolist() {
   return (
@@ -7,17 +8,7 @@ export default function Todolist() {
       className="flex flex-col justify-center items-center "
       style={{ height: "100vh" }}
     >
-      <div className="bg-blue-200 rounded-md p-2">
-        <header>Project Name</header>
-        <div className="w-64">
-          <div className="flex justify-between">
-            <div>Title</div>
-            <div>...</div>
-          </div>
-          <Card>Card Name</Card>
-        </div>
-        <Create />
-      </div>
+      <CardContainer />
     </div>
   );
 }
