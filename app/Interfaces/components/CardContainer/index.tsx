@@ -16,10 +16,10 @@ export default function CardContainer() {
         setcardDatas(JSON.parse(getName));
       }
     }
-  }, []);
+  }, [addCard]);
 
   const handleGetValue = (value: string) => {
-    let newArray = [...addCard];
+    let newArray = [...cardDatas];
     newArray.push({ name: value });
     setAddCard(newArray);
     const setCardName = localStorage.setItem(
