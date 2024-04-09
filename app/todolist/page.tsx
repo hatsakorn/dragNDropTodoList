@@ -1,6 +1,4 @@
-import Card from "@/app/components/Card";
-import Create from "@/app/components/Modal/Create";
-import CardContainer from "../Interfaces/components/CardContainer";
+import CardContainer from "@/app/Interfaces/components/CardContainer";
 
 export default function Todolist() {
   return (
